@@ -211,3 +211,15 @@
 .font-raleway {
     font-family: 'Raleway', sans-serif;
 }
+.portion .sosmed-icon{
+    margin-top: 60px;
+}
+.portion .sosmed-icon a{
+    margin: 10px 20px;
+}
+.portion .sosmed-icon a img{
+    width: 30px;
+}
+
+
+
