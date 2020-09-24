@@ -118,7 +118,7 @@
 
 .video{
     min-height: 300px;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 .video .video_play iframe {
     width: 100%;
