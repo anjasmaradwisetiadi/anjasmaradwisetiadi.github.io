@@ -10,9 +10,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-         https://firebase.google.com/docs/web/setup#config-web-app -->
+    <!-- core firebase -->
+    <script src="./js/coreFirebase.js"></script>
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" class="font-raleway">
@@ -20,7 +20,8 @@
         <nav class="navbar navbar-mycolor navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainnavbar" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#mainnavbar" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -48,9 +49,11 @@
                         <h1>Anjasmara Dwi.S</h1>
                     </div>
                     <div class="myjob">Programmer</div>
-                    <div class="mydescription">Hello my name is Anjasmara Dwi.S, i'm passionate software developer from Indonesia, i am fast learner and very positive about fast changing working environment.</div>
+                    <div class="mydescription">Hello my name is Anjasmara Dwi.S, i'm passionate software developer from
+                        Indonesia, i am fast learner and very positive about fast changing working environment.</div>
                 </div>
-                <div class="downarrow"><a href="#skill"><i class="fa fa-angle-down fa-5x fa-inverse" aria-hidden="true"></i></a></div>
+                <div class="downarrow"><a href="#skill"><i class="fa fa-angle-down fa-5x fa-inverse"
+                            aria-hidden="true"></i></a></div>
             </div>
         </div>
         <div id="skill" class="portion">
@@ -107,7 +110,8 @@
                             <img src="assets/works/dummy.png">
                             <div class="overlay">
                                 <div class="overlay-text">
-                                    <a href="https://landing-page-54d28.firebaseapp.com/">Landing Page <br> & Simple Game</a>
+                                    <a href="https://landing-page-54d28.firebaseapp.com/">Landing Page <br> & Simple
+                                        Game</a>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +120,8 @@
                         <div class="imgoverlaycontainer">
                             <img src="assets/works/Aramco_logo.jpg">
                             <div class="overlay">
-                                <div class="overlay-text"><a href="https://gui-smarthome.web.app/">Aramco Website <br> Redesign</a>
+                                <div class="overlay-text"><a href="https://gui-smarthome.web.app/">Aramco Website <br>
+                                        Redesign</a>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +130,8 @@
                         <div class="imgoverlaycontainer">
                             <img src="assets/works/Kaguya_logo.jpg">
                             <div class="overlay">
-                                <div class="overlay-text"><a href="https://pyrebase-anjas-54a73.firebaseapp.com/">IOT <br> Broiler Chicken Farms<br>
+                                <div class="overlay-text"><a href="https://pyrebase-anjas-54a73.firebaseapp.com/">IOT
+                                        <br> Broiler Chicken Farms<br>
                                         <span>
                                             admin : anjasmara@gmail.com <br>
                                             pass : anjasmara
@@ -141,7 +147,8 @@
                         <div class="imgoverlaycontainer">
                             <img src="assets/works/SmartHome_logo.jpg">
                             <div class="overlay">
-                                <div class="overlay-text"> <a href="https://loginauthentication-e6def.firebaseapp.com/">IOT Smart Home<br>
+                                <div class="overlay-text"> <a
+                                        href="https://loginauthentication-e6def.firebaseapp.com/">IOT Smart Home<br>
                                         <span>
                                             admin : anjasmara@gmail.com <br>
                                             pass : anjasmara
@@ -155,7 +162,8 @@
                         <div class="imgoverlaycontainer">
                             <img src="assets/works/Lamborghini_logo.jpg">
                             <div class="overlay">
-                                <div class="overlay-text"> <a href="https://lambo-website.firebaseapp.com"> Lamborghini Design</a> </div>
+                                <div class="overlay-text"> <a href="https://lambo-website.firebaseapp.com"> Lamborghini
+                                        Design</a> </div>
                             </div>
                         </div>
                     </div>
@@ -178,6 +186,21 @@
                 </div>
             </div>
         </div>
+
+        <!--video  -->
+        <div class="video" id="video">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-lg-6 col-md-6 col-sm-12 justify-content-center">
+                        <video width="480" height="270" controls>
+                            <source src="./assets/video/Fix Anjas Portofolio_Video.m4v" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+        </div>
         <div id="contact" class="portion">
             <h2>Contact Me</h2>
             <div class="container">
@@ -186,7 +209,9 @@
                         <h4>+6281227182587</h4>
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <h4><a href="https://drive.google.com/drive/folders/13IgY9Mai56eha_27U-ErM1pcKbfTVLNL?usp=sharing">My Curiculum Vitae</a></h4>
+                        <h4><a
+                                href="https://drive.google.com/drive/folders/13IgY9Mai56eha_27U-ErM1pcKbfTVLNL?usp=sharing">My
+                                Curiculum Vitae</a></h4>
                     </div>
                     <div class="col-md-3 col-sm-12">
                         <h4>Address: Prajenan, Baturan, Gantiwarno, Klaten, Jawatengah, Indonesia</h4>
@@ -225,68 +250,26 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/sakurafall.js"></script>
     <script type="text/javascript" src="js/scrollspy.min.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        // Add smooth scrolling on all links inside the navbar
-        $('a[href*="#"]')
-            .not('[href="#"]')
-            .not('[href="#0"]')
-            .on('click', function(event) {
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({ scrollTop: $(hash).offset().top }, 800, function() {
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-        //init sakurafall
-        sf.initSakuraFall("sakurafall");
-        $('#sakurafall').on('scrollSpy:enter', function() {
-            sf.toggleSfPlay(true);
-        });
-        $('#sakurafall').on('scrollSpy:exit', function() {
-            sf.toggleSfPlay(false);
-        });
-        $('#sakurafall').scrollSpy();
-        //back to top
-        $('#top').on('scrollSpy:enter', function() {
-            $('#backtotop').animate({
-                height: '0px'
-            });
-        });
-        $('#top').on('scrollSpy:exit', function() {
-            $('#backtotop').animate({
-                height: '48px'
-            });
-        });
-        $('#top').scrollSpy();
-    });
-    </script>
+    <script type="text/javascript" src="./js/script.js"></script>
     <!--Debugging script-->
     <script type="text/javascript">
-    (function() {
-        document.write("<button style='position:fixed;bottom:10px;left:10px;' id='toggledebugarea'>Layout area</button>");
-        var btndebug = document.getElementById('toggledebugarea');
-        btndebug.onclick = () => {
-            let allele = document.body.getElementsByTagName("*");
-            for (var i = 0; i < allele.length; i++) {
-                allele[i].classList.toggle("debug");
-            }
-            console.log("debug class toggeled");
-        };
-    })();
+        (function () {
+            document.write(
+                "<button style='position:fixed;bottom:10px;left:10px;' id='toggledebugarea'>Layout area</button>"
+            );
+            var btndebug = document.getElementById('toggledebugarea');
+            btndebug.onclick = () => {
+                let allele = document.body.getElementsByTagName("*");
+                for (var i = 0; i < allele.length; i++) {
+                    allele[i].classList.toggle("debug");
+                }
+                console.log("debug class toggeled");
+            };
+        })();
     </script>
     <script>
-    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+            ':35729/livereload.js?snipver=1"></' + 'script>')
     </script>
 </body>
 
