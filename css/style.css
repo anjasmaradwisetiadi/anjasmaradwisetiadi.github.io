@@ -1,3 +1,11 @@
+@media (min-width: 992px) {
+    .video .video_play video {
+        max-width: 480px !important;
+        max-height: 290px !important;
+    }
+
+}
+
 .debug {
     outline: 1px dashed red;
 }
@@ -107,6 +115,38 @@
     color: #5B5B5B;
 }
 
+
+
+.video .video_play video {
+    max-width: 300px;
+    max-height: 240px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    top: 0;
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.video h2 {
+    margin-bottom: 30px;
+}
+
+.video .quote {
+    font-size: 24px;
+    color: #808080;
+}
+
+.video .quote::before {
+    content: open-quote;
+}
+
+.video .quote::after {
+    content: close-quote;
+}
+
 .portion h2 {
     text-align: center;
     margin-bottom: 50px;
@@ -186,10 +226,10 @@
     text-align: center;
 }
 
-.overlay-text a span{
-	text-align: center;
-	margin-top: 20px;
-	font-size: 14px;
+.overlay-text a span {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
 }
 
 .works-wrapper {
@@ -211,15 +251,15 @@
 .font-raleway {
     font-family: 'Raleway', sans-serif;
 }
-.portion .sosmed-icon{
+
+.portion .sosmed-icon {
     margin-top: 60px;
 }
-.portion .sosmed-icon a{
+
+.portion .sosmed-icon a {
     margin: 10px 20px;
 }
-.portion .sosmed-icon a img{
+
+.portion .sosmed-icon a img {
     width: 30px;
 }
-
-
-
